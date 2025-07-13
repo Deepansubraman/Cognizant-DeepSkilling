@@ -1,0 +1,2 @@
+spring.application.name=spring-learn
+server.port=8083
