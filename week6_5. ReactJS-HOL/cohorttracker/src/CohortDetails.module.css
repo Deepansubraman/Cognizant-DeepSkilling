@@ -1,0 +1,27 @@
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px black;
+    border-radius: 10px;
+}
+
+h3 {
+    color: green;
+}
+
+.ongoing {
+    color: green;
+}
+
+.scheduled {
+    color: blue;
+}
+
+dt {
+    font-weight: 500;
+}
