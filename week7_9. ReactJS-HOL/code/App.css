@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.player-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.player-list li {
+  padding: 8px;
+  margin: 5px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.score {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.low-score {
+  font-weight: bold;
+  color: #c62828;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px;
+}
